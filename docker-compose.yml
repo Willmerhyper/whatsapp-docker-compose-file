@@ -38,7 +38,7 @@ services:
 
   redis:
     image: redis
-    container_name: redis
+    container_name: redis2
     ports:
       - "6379:6379"
     networks:
